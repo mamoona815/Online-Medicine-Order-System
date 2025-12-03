@@ -1,0 +1,100 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+/* Header */
+header {
+    background: #0a8a56;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #c8f9e2;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: #0a8a56;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hero button:hover {
+    opacity: 0.8;
+}
+
+/* Product Cards */
+.products {
+    padding: 30px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    width: 230px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    background: #0a8a56;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0a8a56;
+    color: white;
+    margin-top: 30px;
+}
